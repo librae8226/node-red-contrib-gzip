@@ -16,8 +16,8 @@
 
 <script type="text/x-red" data-template-name="gzip">
     <div class="form-row">
-        <label for="node-input-name"><i class="fa fa-tag"></i> <span data-i18n="common.label.name"></span></label>
-        <input type="text" id="node-input-name" data-i18n="[placeholder]common.label.name">
+	<label for="node-input-name"><i class="fa fa-tag"></i> <span data-i18n="node-red:common.label.name"></span></label>
+	<input type="text" id="node-input-name" data-i18n="[placeholder]node-red:common.label.name">
     </div>
 </script>
 
@@ -29,13 +29,13 @@
 <script type="text/javascript">
     RED.nodes.registerType('gzip',{
         category: 'function',
-        color:"#A6BBCF",
+        color:"#DEBD5C",
         defaults: {
             name: {value:""}
         },
         inputs:1,
         outputs:1,
-        icon: "jq.png",
+        icon: "gzip.png",
         label: function() {
             return this.name||"gzip";
         },
