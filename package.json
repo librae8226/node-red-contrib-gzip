@@ -1,6 +1,6 @@
 {
   "name": "node-red-contrib-gzip",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "repository": {
     "type": "git",
     "url": "https://github.com/librae8226/node-red-contrib-gzip"
@@ -19,6 +19,6 @@
   },
   "dependencies": {
     "pako": "1.0.4",
-    "iconv-lite": "0.4.15"
+    "text-encoding": "^0.6.4"
   }
 }
